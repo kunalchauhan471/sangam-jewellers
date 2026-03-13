@@ -249,3 +249,7 @@ z-index:1000;
 .whatsapp:hover{
 transform:scale(1.1);
 }
+.gallery img:hover{
+box-shadow:0 20px 60px rgba(198,161,91,0.5);
+transform:scale(1.08);
+}

@@ -205,4 +205,17 @@ font-size:18px;
 
 .logo-text{
 letter-spacing:1px;
+
+}
+.logo-text {
+  background: linear-gradient(90deg,#C6A15B,#f5e6c8,#C6A15B);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 4s linear infinite;
+}
+
+@keyframes shine {
+  0% {background-position: -200%;}
+  100% {background-position: 200%;}
 }
